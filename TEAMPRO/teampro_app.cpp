@@ -24,7 +24,7 @@
 using namespace std;
 
 teampro_app::teampro_app(BETaskConfiguration conf) :
-        BETask(conf)
+        BETask(conf), counter(0)
 {
 }
 
@@ -35,5 +35,7 @@ teampro_app::~teampro_app()
 
 void teampro_app::cycleWork(void)
 {
+    counter++;
 }
+
 
