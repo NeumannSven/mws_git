@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="at.bachmann.cdt.config.cpp.compiler5.5.1458031998">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="at.bachmann.cdt.config.cpp.compiler5.5.1458031998" moduleId="org.eclipse.cdt.core.settings" name="Bachmann_5.5_Configuration">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="m" artifactName="teampro" buildArtefactType="at.bachmann.cdt.buildArtefactType.mFile" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=at.bachmann.cdt.buildArtefactType.mFile,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -f" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.VCErrorParser" id="at.bachmann.cdt.config.cpp.compiler5.5.1458031998" name="Bachmann_5.5_Configuration" parent="at.bachmann.cdt.config.cpp.compiler5.5">
+					<folderInfo id="at.bachmann.cdt.config.cpp.compiler5.5.1458031998." name="/" resourcePath="">
+						<toolChain id="at.bachmann.cdt.toolchain.cpp.compiler5.5.mfile.8357239" name="Bachmann 5.5 C++ Toolchain" superClass="at.bachmann.cdt.toolchain.cpp.compiler5.5.mfile">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="at.bachmann.cdt.toolchain.gcc.target.base.platform.852095006" name="Debug Platform" osList="all" superClass="at.bachmann.cdt.toolchain.gcc.target.base.platform"/>
+							<builder buildPath="${workspace_loc:/TEAMPRO}/Bachmann_5.5_Configuration" enableAutoBuild="true" id="at.bachmann.cdt.toolchain.gcc.base.builder.1579400820" managedBuildOn="true" name="Bachmann Make Builder.Bachmann_5.5_Configuration" superClass="at.bachmann.cdt.toolchain.gcc.base.builder"/>
+							<tool id="at.bachmann.cdt.toolchain.gcc.base.c.compiler.827417642" name="Bachmann C Compiler" superClass="at.bachmann.cdt.toolchain.gcc.base.c.compiler">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="at.bachmann.cdt.toolchain.gcc.base.c.compiler.options.includes.path.873108498" superClass="at.bachmann.cdt.toolchain.gcc.base.c.compiler.options.includes.path" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/exception&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/AI&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/AIO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/AO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/DI&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/DIO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/DO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/FCT&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/NET&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/common/base&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/configuration&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/util&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/util/processImage&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/module&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/smi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/smi/client&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/smi/calls&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/svi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/svi/value&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/task&quot;"/>
+								</option>
+								<inputType id="at.bachmann.cdt.toolchain.gcc.base.c.compiler.input.1241168710" superClass="at.bachmann.cdt.toolchain.gcc.base.c.compiler.input">
+									<additionalInput kind="additionaldependency" paths="$(C_LEX)"/>
+									<additionalInput kind="additionaldependency" paths="$(C_BYACC)"/>
+									<additionalInput kind="additionaldependency" paths="$(H_BYACC)"/>
+								</inputType>
+							</tool>
+							<tool id="at.bachmann.cdt.toolchain.gcc.base.c.compiler.ctdt.1415607523" name="Bachmann C CTDT Compiler" superClass="at.bachmann.cdt.toolchain.gcc.base.c.compiler.ctdt">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="at.bachmann.cdt.toolchain.gcc.base.c.compiler.ctdt.options.includes.path.862863770" superClass="at.bachmann.cdt.toolchain.gcc.base.c.compiler.ctdt.options.includes.path" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/exception&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/AI&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/AIO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/AO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/DI&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/DIO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/DO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/FCT&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/NET&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/common/base&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/configuration&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/util&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/util/processImage&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/module&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/smi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/smi/client&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/smi/calls&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/svi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/svi/value&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/task&quot;"/>
+								</option>
+								<inputType id="at.bachmann.cdt.toolchain.gcc.base.c.compiler.ctdt.input.176357925" superClass="at.bachmann.cdt.toolchain.gcc.base.c.compiler.ctdt.input"/>
+							</tool>
+							<tool id="at.bachmann.cdt.toolchain.gcc.base.c.linker.compound.2037631436" name="Bachmann C Compound Linker" superClass="at.bachmann.cdt.toolchain.gcc.base.c.linker.compound">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="at.bachmann.cdt.toolchain.gcc.base.linker.compound.option.paths.744018390" superClass="at.bachmann.cdt.toolchain.gcc.base.linker.compound.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/lib&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="at.bachmann.cdt.toolchain.gcc.base.c.linker.compound.option.libs.1969741615" superClass="at.bachmann.cdt.toolchain.gcc.base.c.linker.compound.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="befc${ABI_VERSION}"/>
+								</option>
+							</tool>
+							<tool id="at.bachmann.cdt.toolchain.gcc.base.cpp.linker.compound.966321959" name="Bachmann C++ Compound Linker" superClass="at.bachmann.cdt.toolchain.gcc.base.cpp.linker.compound">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="at.bachmann.cdt.toolchain.gcc.base.linker.compound.option.paths.150249891" superClass="at.bachmann.cdt.toolchain.gcc.base.linker.compound.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/lib&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="at.bachmann.cdt.toolchain.gcc.base.cpp.linker.compound.option.libs.382176945" superClass="at.bachmann.cdt.toolchain.gcc.base.cpp.linker.compound.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="befc${ABI_VERSION}"/>
+								</option>
+								<inputType id="at.bachmann.cdt.toolchain.gcc.base.linker.compound.input.45942913" superClass="at.bachmann.cdt.toolchain.gcc.base.linker.compound.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="at.bachmann.cdt.toolchain.gcc.base.c.linker.stripped.49210967" name="Bachmann Object Linker" superClass="at.bachmann.cdt.toolchain.gcc.base.c.linker.stripped"/>
+							<tool id="at.bachmann.cdt.toolchain.gcc.base.c.linker.dbo.6995339" name="Bachmann DBO Linker" superClass="at.bachmann.cdt.toolchain.gcc.base.c.linker.dbo"/>
+							<tool id="at.bachmann.cdt.toolchain.gcc.base.cpp.compiler.138634936" name="Bachmann C++ Compiler" superClass="at.bachmann.cdt.toolchain.gcc.base.cpp.compiler">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="at.bachmann.cdt.toolchain.gcc.base.cpp.compiler.options.includes.path.1334098041" superClass="at.bachmann.cdt.toolchain.gcc.base.cpp.compiler.options.includes.path" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/exception&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/AI&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/AIO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/AO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/DI&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/DIO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/DO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/FCT&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/NET&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/common/base&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/configuration&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/util&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/util/processImage&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/module&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/smi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/smi/client&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/smi/calls&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/svi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/svi/value&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/task&quot;"/>
+								</option>
+								<inputType id="at.bachmann.cdt.toolchain.gcc.base.cpp.compiler.input.1933590665" superClass="at.bachmann.cdt.toolchain.gcc.base.cpp.compiler.input"/>
+							</tool>
+							<tool id="at.bachmann.cdt.toolchain.gcc.base.muncher.1553795931" name="Bachmann Muncher" superClass="at.bachmann.cdt.toolchain.gcc.base.muncher"/>
+							<tool id="at.bachmann.cdt.toolchain.gcc.base.mbind.1760557636" name="Bachmann M-File Generator" superClass="at.bachmann.cdt.toolchain.gcc.base.mbind"/>
+							<tool id="at.bachmann.cdt.toolchain.gcc.base.mbindplc.1080889959" name="Bachmann PLM-File Generator" superClass="at.bachmann.cdt.toolchain.gcc.base.mbindplc"/>
+							<tool id="at.bachmann.cdt.toolchain.gcc.base.confc.1430854829" name="Bachmann Configuration Rule Compiler" superClass="at.bachmann.cdt.toolchain.gcc.base.confc"/>
+							<tool id="at.bachmann.cdt.toolchain.gcc.base.assembler.390596915" name="Bachmann Assembler" superClass="at.bachmann.cdt.toolchain.gcc.base.assembler">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="at.bachmann.cdt.toolchain.gcc.base.assembler.options.includes.path.1057268903" superClass="at.bachmann.cdt.toolchain.gcc.base.assembler.options.includes.path" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/exception&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/AI&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/AIO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/AO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/DI&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/DIO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/DO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/FCT&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/cards/NET&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/common/base&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/configuration&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/util&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/mio/util/processImage&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/module&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/smi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/smi/client&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/smi/calls&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/svi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/svi/value&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/befc/task&quot;"/>
+								</option>
+								<inputType id="at.bachmann.cdt.toolchain.gcc.base.assembler.input.1834877529" superClass="at.bachmann.cdt.toolchain.gcc.base.assembler.input"/>
+							</tool>
+							<tool id="at.bachmann.cdt.toolchain.gcc.base.byacc.1935487373" name="Bachmann Bison/YACC Generator  " superClass="at.bachmann.cdt.toolchain.gcc.base.byacc"/>
+							<tool id="at.bachmann.cdt.toolchain.gcc.base.flex.305920841" name="Bachmann LEX Generator" superClass="at.bachmann.cdt.toolchain.gcc.base.flex"/>
+							<tool id="at.bachmann.cdt.tool.compiler5.5.archiver.1515280794" name="Bachmann Archiver" superClass="at.bachmann.cdt.tool.compiler5.5.archiver"/>
+							<tool id="at.bachmann.cdt.toolchain.gcc.symconv.218628974" name="Bachmann Symbol Converter" superClass="at.bachmann.cdt.toolchain.gcc.symconv"/>
+							<tool id="at.bachmann.cdt.tool.compiler5.5.nm.133733784" name="Bachmann Symbols Extractor" superClass="at.bachmann.cdt.tool.compiler5.5.nm"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="TEAMPRO.at.bachmann.cdt.toochain.gcc.cppproject.1330120032" name="Bachmann Modul" projectType="at.bachmann.cdt.toochain.gcc.cppproject"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>

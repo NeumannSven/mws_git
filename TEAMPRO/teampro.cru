@@ -1,0 +1,48 @@
+MODUL teampro
+VERSION 102
+PROPERTY RECONF
+
+ROOT
+(BaseParms)
+	Partition       		= UINT8( 0 .. 63 )[2]
+	DebugMode       		= UINT32[0x0]
+	Priority        		= UINT32(16 .. 255)[130]
+	ModuleIndex     		= SINT32[0]
+(ControlTask)
+	CycleTime				= UINT32(500 .. 60000000)[1000000]
+END_ROOT
+
+DESC(001)
+	BaseParms               = "Parameters for cyclic worker task"
+	BaseParms.Partition     = "Storage partition, in which the software module for the runtime is loaded and started, 0 .. 63"
+	BaseParms.DebugMode     = "Activate debug mode and extended information output in log and console"
+	BaseParms.Priority      = "Priority of cyclic a-Task (Control Task), 16 .. 255"
+	BaseParms.ModuleIndex   = "Running instance index passed to the software module"
+	ControlTask				= "Configuration options for the task"
+	ControlTask.CycleTime	= "The cycletime in microseconds"
+END_DESC
+
+DESC(049)
+	BaseParms               = "Parameter fuer zyklischen Worker Task"
+	BaseParms.Partition     = "Speicherpartition, in der das Speichermodul fuer die Laufzeit geladen und gestartet wird, 0 .. 63"
+	BaseParms.DebugMode     = "Aktiviert den Debug-Modus sowie die erweiterte Informationsausgabe in Logbuch und Konsole"
+	BaseParms.Priority      = "Prioritaet des zyklischen a-Tasks (Control Task), 16 .. 255"
+	BaseParms.ModuleIndex	= "Durchlaufender Instanzindex, der dem Softwaremodul uebergeben wird"
+	ControlTask				= "Parameter fuer Task 'Control'"
+	ControlTask.CycleTime	= "Zykluszeit des Tasks in us, 200 .. 100000"
+END_DESC
+
+HELP(001)
+    "Introduction:"
+    "    This software module contains sample code for various applications."
+    "    The source code can be adapted to the needs of the actual application."
+    ""
+END_HELP
+
+HELP(049)
+    "Allgemein:"
+    "    Dieses SW-Modul beinhaltet Beispiel Code fuer diverse Aufgaben."
+    "    Der Beispiel Code kann je nach Bedarf veraendert und angepasst"
+    "    werden."
+    ""
+END_HELP

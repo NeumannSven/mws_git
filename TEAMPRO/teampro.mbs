@@ -1,0 +1,35 @@
+;Script for MBIND to build teampro.m
+;
+;Header
+;
+ModuleType        = VXW
+Version           = teampro.ver
+Reentrant         = FALSE
+NoOnlineConfig    = FALSE
+NoOnlineInstall   = FALSE
+NoOnlineDeinstall = FALSE
+DebugInfo         = TRUE
+ErrorTolerant     = FALSE
+NoAutoInstall     = FALSE
+SystemModule      = FALSE
+MMPReady          = TRUE
+;
+;Object-Code
+;
+ObjectType        = OBJ
+ObjectMode        = NORMAL
+Version           = teampro.ver
+ObjectName        = teampro.o
+;
+;Configuration-Rule
+;
+ObjectType        = BCRU
+ObjectName        = teampro.bcr
+;
+;Source-Code
+;
+;ObjectType        = C-ZIP
+;ObjectName        = teampro.tgz
+ObjectType = SWREQ
+Version = CPPLIB.ver
+ObjectName = CPPLIB
